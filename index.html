@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/assignment2.css">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bungee+Outline&family=Goldman&family=Londrina+Outline&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap" rel="stylesheet">
+    <title>Assignment2: Personel portfolio</title>
+    <script src="https://kit.fontawesome.com/yourcode.js"></script>
+    <script type="text/javascript">
+      function disAlert(){
+        alert("your info has been submitted.");
+      }
+    </script>
+
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="chkbtn">
+        <i class="fa fa-bars"></i>
+      </label>
+      <label class="logo">Harshath</label>
+      <ul>
+        <li> <a href="mailto:harsha.hr3356@gmail.com" target="_blank">Contact-me</a> </li>
+        <li> <a href="https://instagram.com/harshath_hr78" target="_blank">Instagram</a> </li>
+        <li> <a href="https://www.linkedin.com/in/harshath-hr-91a6761b2" target="_blank">Linkedin</a> </li>
+      </ul>
+    </nav>
+
+    <section class="sec1">
+      <div class="s1d1">
+        <img class="profimg" src="images/img3.jpg" alt="prof img">
+      </div>
+      <div class="s1d2">
+        <h1>Harshath HR</h1>
+        <h3>Im a web developer.</h3>
+      </div>
+    </section>
+
+    <section class="sec2">
+      <div class="s2d1">
+        <h1>My embeded Youtube video</h1>
+        <p>These are some of my art works which i tried during the lockdown. I drew a few for my friends and others for myself. </p>
+      </div>
+      <div class="s2d2">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/tADV3RHfXC8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section class="sec3">
+      <div class="s3d1">
+        <h1>My education embeded map</h1>
+        <p>This is the college where im completing my higher studies. I have a good time here and have great friends. </p>
+      </div>
+      <div class="s3d2">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.219081183266!2d77.58676921461036!3d12.829114990949522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae159e04c0b69d%3A0x282c90f520882ad2!2sAMC%20Engineering%20College!5e0!3m2!1sen!2sin!4v1632292876370!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </section>
+
+    <section class="sec4">
+      <div class="s4d1">
+        <h1>Visitor Info</h1>
+        <p>This is just a simple form i would ask you to fill so that i can know you better. This is just for my assignment sake and i would like to keep it confidential.  </p>
+      </div>
+      <form class="form1" action="index.html" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name"><br>
+        <label for="age">Age</label>&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="number" id="age"><br>
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other"> Other<br>
+        <input type="submit" name="submit" value="Submit" onclick="disAlert()">
+      </form>
+    </section>
+    <footer class="footer">
+      <h1>©2021 Harshath HR</h1>
+    </footer>
+  </body>
+</html>
